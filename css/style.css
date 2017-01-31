@@ -1,3 +1,33 @@
+/* partie SLIDE */
+
+.group:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+ul{
+  list-style: none;
+}
+
 .picture{
   width: 300px;
+}
+
+/* partie MENU */
+
+.nom-plat{
+  text-decoration: underline;
+}
+
+.img-food{
+ width: 100px;
+ float: left;
+ margin-right: 10px;
+}
+
+.food-description{}
+
+.food-price{
+  padding-left: 70vw;
 }

@@ -32,6 +32,13 @@ var contenu = {
       image: 'http://scrat.hellocoton.fr/img/guide/recette-ma-salade-tiede-de-chou-kale-et-lentilles-patates-douces-et-saumon-fume-18911644.jpg',
       description: 'Toujours à l\'heure, la salade de saison vous régalera avec ses légumes',
       price: '14 €'
+    },
+    {
+      id: 4,
+      name: 'Tourte au c*c*',
+      image: 'http://scrat.hellocoton.fr/img/guide/recette-ma-salade-tiede-de-chou-kale-et-lentilles-patates-douces-et-saumon-fume-18911644.jpg',
+      description: 'Toujours à l\'heure, la salade de saison vous régalera avec ses légumes',
+      price: '14 €'
     }
   ]
 
@@ -64,6 +71,36 @@ var presentation = document.querySelector('.presentation p');
 title.textContent = contenu.name;
 presentation.textContent = contenu.description;
 
-//carte
+//
 
-var carte = document.querySelector('.carte');
+//var carte = document.querySelector('.carte');
+var carteListe = document.querySelector('.carte-liste li');
+
+for(var j = 0; j < contenu.carte.length; j++ ){
+
+    var carteTitre = document.createElement('h2');   carteTitre.classList.add('nom-plat');
+    carteListe.appendChild(carteTitre);
+    carteTitre.textContent = contenu.carte[j].name;
+
+    var carteImage = document.createElement('img');
+    carteImage.classList.add('img-food');
+    carteImage.setAttribute("src", contenu.carte[j].image);
+    carteListe.appendChild(carteImage);
+
+    var carteDescr = document.createElement('p');
+    carteDescr.classList.add('food-description');
+    carteListe.appendChild(carteDescr);
+    carteDescr.textContent = contenu.carte[j].description;
+
+    var cartePrix = document.createElement('p');
+    cartePrix.classList.add('food-price');
+    carteListe.appendChild(cartePrix);
+    cartePrix.textContent = contenu.carte[j].price;
+
+}
+
+google.maps.event.addDomListener(window, "resize", function() {
+   var center = map.getCenter();
+   google.maps.event.trigger(map, "resize");
+   map.setCenter(center);
+});
