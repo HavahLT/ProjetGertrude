@@ -1,5 +1,23 @@
-/* partie SLIDE */
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
 
+.btn-panier{
+  border:none;
+  background: #27B29F;
+  color:#ffffff;
+  width:80px;
+  padding:15px 0;
+}
+
+
+/* partie SLIDE */
+.picture{
+  width: 300px;
+}
+
+/* partie MENU */
 .group:after {
  content: "";
  display: table;
@@ -9,12 +27,6 @@
 ul{
   list-style: none;
 }
-
-.picture{
-  width: 300px;
-}
-
-/* partie MENU */
 
 .nom-plat{
   text-decoration: underline;
@@ -30,4 +42,6 @@ ul{
 
 .food-price{
   padding-left: 70vw;
+  font-weight: bolder;
+  color:#27B29F;
 }
