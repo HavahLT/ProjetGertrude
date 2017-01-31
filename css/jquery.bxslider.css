@@ -13,6 +13,10 @@
 
 /** RESET AND LAYOUT
 ===================================*/
+.bxslider {
+	padding: 0;
+	margin: 0;
+}
 
 .bx-wrapper {
 	position: relative;
@@ -23,13 +27,14 @@
 
 .bx-wrapper img {
 	max-width: 100%;
-	display: block;
+
 }
 
 /** THEME
 ===================================*/
 
 .bx-wrapper .bx-viewport {
+	text-align: center;
 
 
 	/*fix other elements on the page moving (on Chrome)*/
