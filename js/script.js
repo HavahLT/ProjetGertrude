@@ -32,13 +32,6 @@ var contenu = {
       image: 'http://scrat.hellocoton.fr/img/guide/recette-ma-salade-tiede-de-chou-kale-et-lentilles-patates-douces-et-saumon-fume-18911644.jpg',
       description: 'Toujours à l\'heure, la salade de saison vous régalera avec ses légumes',
       price: '14 €'
-    },
-    {
-      id: 4,
-      name: 'Tourte au c*c*',
-      image: 'http://scrat.hellocoton.fr/img/guide/recette-ma-salade-tiede-de-chou-kale-et-lentilles-patates-douces-et-saumon-fume-18911644.jpg',
-      description: 'Toujours à l\'heure, la salade de saison vous régalera avec ses légumes',
-      price: '14 €'
     }
   ]
 
