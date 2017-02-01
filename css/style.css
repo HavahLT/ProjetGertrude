@@ -75,3 +75,8 @@ ul{
   font-weight: bold;
   margin-left:65vw;
 }
+
+.bouton-plat:hover{
+  background-color: white;
+  color: #27B29F
+}
