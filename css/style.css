@@ -47,3 +47,22 @@ ul{
   font-weight: bolder;
   color:#27B29F;
 }
+
+.adress{
+  text-align: center;
+}
+
+.foot{
+  background: 30px;
+  background-color: #F8F8F8;
+  margin: 20px;
+  justify-content: space-around;
+}
+
+.foot-content{
+  display: inline;
+  margin: 10px;
+  text-decoration: underline;
+  padding: 164px;
+  justify-content: center;
+}
