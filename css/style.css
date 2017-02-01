@@ -11,6 +11,13 @@ p{
   padding:15px 0;
 }
 
+.btn-panier:hover{
+  background-color: #F8F8F8;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #27B29F;
+}
+
 
 /* partie SLIDE */
 .picture{
@@ -71,12 +78,14 @@ ul{
   border:none;
   color:#ffffff;
   background:#27B29F;
-  padding:10px 10px;
+  padding:12px 10px;
   font-weight: bold;
   margin-left:65vw;
+
 }
 
 .bouton-plat:hover{
   background-color: white;
-  color: #27B29F
+  color: #27B29F;
+  border: 1px solid #27B29F;
 }
