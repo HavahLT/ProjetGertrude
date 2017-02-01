@@ -90,10 +90,20 @@ for(var j = 0; j < contenu.carte.length; j++ ){
     carteListe.appendChild(cartePrix);
     cartePrix.textContent = contenu.carte[j].price;
 
+    var btnPlat = document.createElement('button');
+    btnPlat.classList.add('bouton-plat');
+    btnPlat.textContent = "Ajouter au panier";
+    carteListe.appendChild(btnPlat);
+
 }
+/*
 
 google.maps.event.addDomListener(window, "resize", function() {
    var center = map.getCenter();
    google.maps.event.trigger(map, "resize");
    map.setCenter(center);
 });
+
+*/
+
+// gestion du panier
