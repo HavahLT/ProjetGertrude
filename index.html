@@ -32,8 +32,20 @@
                         <ul class="nav navbar-nav">
                             <li><a href="#">Carte</a></li>
                             <li><a href="#">Contact</a></li>
-                            <button class="btn-panier" type="button" name="Panier">Panier</button>
+                            <!--
+                            <button class="btn-panier" type="button" name="Panier">Panier</button-->
+
+                            <button class="btn btn-default dropdown-toggle btn-panier" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Panier<span class="caret"></span></button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                          
                         </ul>
+
                     </ul>
                 </div>
             </div>
@@ -99,14 +111,12 @@
         </div>
     </div>
 
-
     <!-- jQuery library (served from Google) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <!-- bxSlider Javascript file -->
     <script src="js/jquery.bxslider.min.js"></script>
     <script type="text/javascript" src="js/data.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-
 
 </body>
 

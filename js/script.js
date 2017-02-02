@@ -6,6 +6,7 @@ $(document).ready(function(){
   });
 });
 
+
 // parse images
 var bxSlider = document.querySelector(".bxslider");
 
@@ -89,3 +90,7 @@ google.maps.event.addDomListener(window, "resize", function() {
 });
 
 // gestion du panier
+
+
+// dropdown panier :
+$('.dropdown-toggle').dropdown();
