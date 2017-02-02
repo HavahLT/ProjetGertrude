@@ -74,23 +74,10 @@ ul{
 .menu-footer{
   text-align: center;
 }
-/*
-.foot{
-  background: 50px;
-  margin: 20px;
-  justify-content: space-around;
-}
 
-
-.foot-content{
-  display: inline;
-  margin: 10px;
+.menu-footer div p{
   text-decoration: underline;
-  padding: 164px;
-  justify-content: center;
 }
-
-*/
 
 /* Partie achat */
 .bouton-plat{
