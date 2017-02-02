@@ -52,6 +52,12 @@ ul{
  height:100px;
  float: left;
  margin-right: 10px;
+ box-shadow: 0 0 10px;
+}
+
+.img-food:hover{
+  height: 115px;
+  transition: ease 1.5s;
 }
 
 .food-price{
