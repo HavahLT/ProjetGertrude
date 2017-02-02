@@ -67,6 +67,7 @@ ul {
 .img-food:hover{
   height: 115px;
   transition: ease 1.5s;
+}
 
 .img-food {
     width: 140px;
