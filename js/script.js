@@ -64,36 +64,58 @@ var presentation = document.querySelector('.presentation p');
 title.textContent = contenu.name;
 presentation.textContent = contenu.description;
 
-//
+// plats :
 
-//var carte = document.querySelector('.carte');
-var carteListe = document.querySelector('.carte-liste li');
+var resultatsPlats = document.querySelector('.resultats-plats');
 
 for(var j = 0; j < contenu.carte.length; j++ ){
 
-    var carteTitre = document.createElement('h2');   carteTitre.classList.add('nom-plat');
-    carteListe.appendChild(carteTitre);
-    carteTitre.textContent = contenu.carte[j].name;
+    // creation du ul dans lequel va s'insérer les li :
+    var divPlats = document.querySelector('.resultats-plats');
+    var createListe = document.createElement('ul');
+    createListe.classList.add('plat-liste');
+    divPlats.appendChild(createListe);;
 
+    // creation du li pour : titre, img, description, prix, bouton
+    var liTitre = document.createElement('li');
+    createListe.appendChild(liTitre);
+    var liDesc = document.createElement('li');
+    createListe.appendChild(liDesc);
+    var liImg = document.createElement('li');
+    createListe.appendChild(liImg);
+    var liPrix = document.createElement('li');
+    createListe.appendChild(liPrix);
+    var liBouton = document.createElement('li');
+    createListe.appendChild(liBouton);
+
+    // creation du titre du plat
+    var carteTitre = document.createElement('h2');   carteTitre.classList.add('nom-plat');
+    carteTitre.textContent = contenu.carte[j].name;
+    liTitre.appendChild(carteTitre);
+
+    // creation de la description du plat
+    var carteDescr = document.createElement('p');
+    carteDescr.classList.add('food-description');
+    carteDescr.textContent = contenu.carte[j].description;
+    liDesc.appendChild(carteDescr);
+
+    // creation de l'image du plat
     var carteImage = document.createElement('img');
     carteImage.classList.add('img-food');
     carteImage.setAttribute("src", contenu.carte[j].image);
-    carteListe.appendChild(carteImage);
+    liImg.appendChild(carteImage);
 
-    var carteDescr = document.createElement('p');
-    carteDescr.classList.add('food-description');
-    carteListe.appendChild(carteDescr);
-    carteDescr.textContent = contenu.carte[j].description;
-
+    // creation du prix du plat
     var cartePrix = document.createElement('p');
     cartePrix.classList.add('food-price');
-    carteListe.appendChild(cartePrix);
     cartePrix.textContent = contenu.carte[j].price;
+    liPrix.appendChild(cartePrix);
 
+    // creation du bouton ajouter au panier
     var btnPlat = document.createElement('button');
     btnPlat.classList.add('bouton-plat');
     btnPlat.textContent = "Ajouter au panier";
-    carteListe.appendChild(btnPlat);
+    liBouton.appendChild(btnPlat);
 
 }
 /*
