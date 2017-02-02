@@ -3,6 +3,12 @@ p{
   font-size: 1.5em;
 }
 
+.logo-texte{
+  font-family: 'Patua One', cursive;
+  color:#27B29F;
+  font-size: 2.5em;
+}
+
 .logo{
   height: 50px;
   width: 50px;
