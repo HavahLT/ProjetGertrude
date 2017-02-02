@@ -1,103 +1,108 @@
-p{
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
 }
 
-.logo-texte{
-  font-family: 'Patua One', cursive;
-  color:#27B29F;
-  font-size: 2.5em;
+.logo-texte {
+    font-family: 'Patua One', cursive;
+    color: #27B29F;
+    font-size: 2.5em;
 }
 
-.logo{
-  height: 50px;
-  width: 50px;
+.logo {
+    height: 50px;
+    width: 50px;
 }
 
-.btn-panier{
-  border:none;
-  background: #27B29F;
-  color:#ffffff;
-  width:80px;
-  padding:15px 0;
+.btn-panier {
+    border: none;
+    background: #27B29F;
+    color: #ffffff;
+    width: 80px;
+    padding: 15px 0;
 }
 
-.btn-panier:hover{
-  background-color: #F8F8F8;
-  text-decoration: underline;
-  font-weight: bold;
-  color: #27B29F;
+.btn-panier:hover {
+    background-color: #F8F8F8;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #27B29F;
 }
 
 
 /* partie SLIDE */
-.picture{
-  width: 500px;
-  height: 300px;
-  background-size: cover;
-  box-shadow: 0 0 10px;
+
+.picture {
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    box-shadow: 0 0 10px;
 }
+
 
 /* partie MENU */
+
 .group:after {
- content: "";
- display: table;
- clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
-ul{
-  list-style: none;
+ul {
+    list-style: none;
 }
 
-.nom-plat{
-  text-decoration: underline;
+.nom-plat {
+    text-decoration: underline;
 }
 
-.img-food{
- width: 140px;
- height:100px;
- float: left;
- margin-right: 10px;
+.img-food {
+    width: 140px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
 }
 
-.food-price{
-  padding-left: 70vw;
-  font-weight: bolder;
-  color:#27B29F;
+.food-price {
+    padding-left: 70vw;
+    font-weight: bolder;
+    color: #27B29F;
 }
+
 
 /* Footer */
 
-#footer{
-  background-color: #F8F8F8;
-  padding:50px 0;
+#footer {
+    background-color: #F8F8F8;
+    padding: 50px 0;
 }
 
-.adress{
-  text-align: center;
+.adress {
+    text-align: center;
 }
 
-.menu-footer{
-  text-align: center;
+.menu-footer {
+    text-align: center;
 }
 
-.menu-footer div p{
-  text-decoration: underline;
+.menu-footer div p {
+    text-decoration: underline;
 }
+
 
 /* Partie achat */
-.bouton-plat{
-  border:none;
-  color:#ffffff;
-  background:#27B29F;
-  padding:12px 10px;
-  font-weight: bold;
-  margin-left:65vw;
 
+.bouton-plat {
+    border: none;
+    color: #ffffff;
+    background: #27B29F;
+    padding: 12px 10px;
+    font-weight: bold;
+    margin-left: 65vw;
 }
 
-.bouton-plat:hover{
-  background-color: white;
-  color: #27B29F;
-  border: 1px solid #27B29F;
+.bouton-plat:hover {
+    background-color: white;
+    color: #27B29F;
+    border: 1px solid #27B29F;
 }
