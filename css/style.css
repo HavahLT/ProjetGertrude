@@ -61,16 +61,26 @@ ul{
 }
 
 /* Footer */
+
+#footer{
+  background-color: #F8F8F8;
+  padding:50px 0;
+}
+
 .adress{
   text-align: center;
 }
 
+.menu-footer{
+  text-align: center;
+}
+/*
 .foot{
   background: 50px;
-  background-color: #F8F8F8;
   margin: 20px;
   justify-content: space-around;
 }
+
 
 .foot-content{
   display: inline;
@@ -79,6 +89,8 @@ ul{
   padding: 164px;
   justify-content: center;
 }
+
+*/
 
 /* Partie achat */
 .bouton-plat{

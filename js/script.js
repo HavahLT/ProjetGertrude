@@ -76,13 +76,20 @@ for(var j = 0; j < contenu.carte.length; j++ ){
     createListe.classList.add('plat-liste');
     divPlats.appendChild(createListe);;
 
+    // creation de l'image du plat
+    var carteImage = document.createElement('img');
+    carteImage.classList.add('img-food');
+    carteImage.setAttribute("src", contenu.carte[j].image);
+    createListe.appendChild(carteImage);
+
     // creation du li pour : titre, img, description, prix, bouton
     var liTitre = document.createElement('li');
     createListe.appendChild(liTitre);
     var liDesc = document.createElement('li');
     createListe.appendChild(liDesc);
-    var liImg = document.createElement('li');
-    createListe.appendChild(liImg);
+
+    //var liImg = document.createElement('li');
+    //createListe.appendChild(liImg);
     var liPrix = document.createElement('li');
     createListe.appendChild(liPrix);
     var liBouton = document.createElement('li');
@@ -98,12 +105,6 @@ for(var j = 0; j < contenu.carte.length; j++ ){
     carteDescr.classList.add('food-description');
     carteDescr.textContent = contenu.carte[j].description;
     liDesc.appendChild(carteDescr);
-
-    // creation de l'image du plat
-    var carteImage = document.createElement('img');
-    carteImage.classList.add('img-food');
-    carteImage.setAttribute("src", contenu.carte[j].image);
-    liImg.appendChild(carteImage);
 
     // creation du prix du plat
     var cartePrix = document.createElement('p');
