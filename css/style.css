@@ -26,8 +26,10 @@ p{
 
 /* partie SLIDE */
 .picture{
-  width: 1170px;
-  height: 400px;
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+  box-shadow: 0 0 10px;
 }
 
 /* partie MENU */
@@ -52,20 +54,19 @@ ul{
  margin-right: 10px;
 }
 
-.food-description{}
-
 .food-price{
   padding-left: 70vw;
   font-weight: bolder;
   color:#27B29F;
 }
 
+/* Footer */
 .adress{
   text-align: center;
 }
 
 .foot{
-  background: 30px;
+  background: 50px;
   background-color: #F8F8F8;
   margin: 20px;
   justify-content: space-around;
@@ -79,6 +80,7 @@ ul{
   justify-content: center;
 }
 
+/* Partie achat */
 .bouton-plat{
   border:none;
   color:#ffffff;
