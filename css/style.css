@@ -18,7 +18,7 @@ h1{
   color:#FFFFFF;
   width: 350px;
   padding:5px 0;
-  margin:30px auto;
+  margin:60px auto;
 }
 
 .logo-texte {
@@ -69,11 +69,18 @@ ul {
 }
 
 .nom-plat {
+  text-align: left;
 }
 
 .img-food{
  width: 200px;
  height:140px;
+ float:left;
+ margin-right:20px;
+}
+
+.food-description{
+  text-align: left;
 }
 
 .food-price {
@@ -143,6 +150,7 @@ table tbody tr td{
 }
 
 .total{
+  font-size: 1.4em;
   font-weight: bold;
   color:#27B29F;
 }
@@ -157,6 +165,12 @@ table tbody tr td{
 
 .trait{
   background: #F8F8F8;
+}
+
+.montant-total{
+  font-size:1.4em;
+  font-weight: bold;
+  color: #27B29F;
 }
 
 .btn-valider-panier{
