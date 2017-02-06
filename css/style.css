@@ -72,7 +72,7 @@ ul {
 }
 
 .img-food{
- width: 140px;
+ width: 200px;
  height:140px;
 }
 
@@ -117,3 +117,53 @@ ul {
 
 
 /* Partie achat */
+
+#panier-drop{
+  width:650px;
+  min-height: 200px;
+}
+
+table thead tr th{
+  vertical-align: center;
+  text-align: center;
+  width:155px;
+}
+
+table tbody tr td{
+  text-align: center;
+  padding:10px 0;
+  vertical-align: center
+}
+
+.gris{
+  width:100%;
+  background: #373838;
+  color:#ffffff;
+  padding:10px;
+}
+
+.total{
+  font-weight: bold;
+  color:#27B29F;
+}
+
+.plats{
+  font-weight: bold;
+}
+
+.poubelle{
+  cursor: pointer;
+}
+
+.trait{
+  background: #F8F8F8;
+}
+
+.btn-valider-panier{
+  background: #27B29F;
+  color:#FFFFFF;
+  border-radius: 2px;
+  padding:5px 5px;
+  border: none;
+  margin: 10px 0 15px 40vw
+}

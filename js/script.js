@@ -75,6 +75,7 @@ for(var j = 0; j < contenu.carte.length; j++ ){
     // creation du bouton ajouter au panier
     var btnPlat = document.createElement('button');
     btnPlat.classList.add('bouton-plat');
+    btnPlat.classList.add('center-block');
     btnPlat.textContent = "Ajouter au panier";
     liBouton.appendChild(btnPlat);
 
