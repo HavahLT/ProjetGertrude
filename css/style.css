@@ -1,7 +1,24 @@
 
+body{
+}
+
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h1{
+  background:#27B29F;
+  color:#FFFFFF;
+  width: 350px;
+  padding:5px 0;
+  margin:30px auto;
 }
 
 .logo-texte {
@@ -22,13 +39,13 @@ p {
     width: 80px;
     padding: 15px 0;
 }
-
+/*
 .btn-panier:hover {
     background-color: #F8F8F8;
-    text-decoration: underline;
     font-weight: bold;
     color: #27B29F;
 }
+*/
 
 
 /* partie SLIDE */
@@ -39,7 +56,7 @@ p {
     box-shadow: 0 0 10px;
 }
 
-/* partie MENU */
+/* partie PLATS */
 
 .group:after {
     content: "";
@@ -52,33 +69,30 @@ ul {
 }
 
 .nom-plat {
-    text-decoration: underline;
 }
 
 .img-food{
  width: 140px;
- height:100px;
- float: left;
- margin-right: 10px;
- box-shadow: 0 0 10px;
-}
-
-.img-food:hover{
-  height: 115px;
-  transition: ease 1.5s;
-}
-
-.img-food {
-    width: 140px;
-    height: 100px;
-    float: left;
-    margin-right: 10px;
+ height:140px;
 }
 
 .food-price {
-    padding-left: 70vw;
     font-weight: bolder;
     color: #27B29F;
+}
+
+.bouton-plat {
+    border: none;
+    color: #ffffff;
+    background: #27B29F;
+    padding: 12px 10px;
+    font-weight: bold;
+}
+
+.bouton-plat:hover {
+    background-color: white;
+    color: #27B29F;
+    border: 1px solid #27B29F;
 }
 
 
@@ -103,18 +117,3 @@ ul {
 
 
 /* Partie achat */
-
-.bouton-plat {
-    border: none;
-    color: #ffffff;
-    background: #27B29F;
-    padding: 12px 10px;
-    font-weight: bold;
-    margin-left: 65vw;
-}
-
-.bouton-plat:hover {
-    background-color: white;
-    color: #27B29F;
-    border: 1px solid #27B29F;
-}

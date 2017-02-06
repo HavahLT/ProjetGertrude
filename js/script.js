@@ -41,6 +41,7 @@ for(var j = 0; j < contenu.carte.length; j++ ){
     // creation de l'image du plat
     var carteImage = document.createElement('img');
     carteImage.classList.add('img-food');
+    carteImage.classList.add('center-block');
     carteImage.setAttribute("src", contenu.carte[j].image);
     createListe.appendChild(carteImage);
 
@@ -49,9 +50,6 @@ for(var j = 0; j < contenu.carte.length; j++ ){
     createListe.appendChild(liTitre);
     var liDesc = document.createElement('li');
     createListe.appendChild(liDesc);
-
-    //var liImg = document.createElement('li');
-    //createListe.appendChild(liImg);
     var liPrix = document.createElement('li');
     createListe.appendChild(liPrix);
     var liBouton = document.createElement('li');
